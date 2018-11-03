@@ -1,6 +1,6 @@
 
 module.exports = class Forum {
-    constructor(title, post) {
+    constructor(title, post, interaction) {
         this.title = title
         this.post = post
         this.interaction = interaction
