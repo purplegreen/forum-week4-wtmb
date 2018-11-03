@@ -1,8 +1,8 @@
 module.export = class User {
-    constructor(name, emoji, idi) {
+    constructor(name, emoji, id) {
         this.name = name
         this.emoji = emoji
-        this.id = this.id
+        this.id = id
     }
     writein(forum) {
         forum.writein.push(this)
