@@ -1,7 +1,7 @@
 const User = require('./models/user')
 const Forum = require('./models/forum')
 const UserInteraction = require('./interactions/user-interactions')
-const Database = require('./database')
+// const Database = require('./database')
 
 console.log('Please say something :)')
 

@@ -31,6 +31,19 @@ async function add(user) {
 
 } 
 
+
+async function del(userId) {
+    const allUsers= await findAll()
+    const userIndex = allUsers.findIndex(p => p.id == userId)
+    if (userIndex < 0) return
+
+    allUsers.splice(userIndex, 1)
+
+    saveAll(allUsers)
+}
+
+
+
 async function find(userId){
 const allUsers = await findAll()
 
