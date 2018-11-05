@@ -5,8 +5,8 @@ module.exports = class User {
         this.emoji = emoji
         this.id = id
     }
-    posting(forum) {
-        forum.posted.push(this)
+    reacts(forum) {
+        forum.users.push(this)
     }
 
 

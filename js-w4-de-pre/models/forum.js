@@ -4,6 +4,7 @@ module.exports = class Forum {
         this.title = title
         this.post = post
         this.interaction = interaction
+        this.reactions = []
         this.users = []
     }
     
