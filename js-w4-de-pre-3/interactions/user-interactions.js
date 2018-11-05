@@ -64,5 +64,6 @@ async function saveAll(users) {
 module.exports = {
      findAll,
      find,
-     add
+     add,
+    del
 }
